@@ -60,7 +60,7 @@ public class BlogController {
 
         //Uppdatera specifikt blogginlägg
         @RequestMapping(value = "update/{id}", method = RequestMethod.POST)
-        public Blog ListBlogPosts(@PathVariable("id") int id, @RequestBody Blog blogChanges) {
+        public Blog UpdateBlogPost(@PathVariable("id") int id, @RequestBody Blog blogChanges) {
             System.out.println("hh" + id);
             Blog blogToUpdate = getBlogByID(id);
 
