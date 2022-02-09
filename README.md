@@ -2,9 +2,9 @@
 ##Checklista: Funktionalitet för Godkänt
 
 Ett inlägg ska bestå av:
-- En rubrik (Title)
-- Ett innehåll (Body)
-- ID
+- [x] En rubrik (Title)
+- [x] Ett innehåll (Body)
+- [x] ID
 
 ### Planering
 
@@ -39,7 +39,7 @@ Ett inlägg ska bestå av:
 
 ## Checklista: Funktionalitet för Väl Godkänt
 
-- [ ] Du ska använda dig av Dependency Injection
-- [ ] Du ska separera koden i en Service och en Controller
-- [ ] Du ska skapa en Dockerfile och skriva instruktioner om hur serverkomponenten kan startas som en docker-container, och klientkomponenten ska kunna ansluta till serverkomponenten.
-- [ ] Du ska använda loggning med SLF4J och logga alla API-anrop
+- [x] Du ska använda dig av Dependency Injection
+- [x] Du ska separera koden i en Service och en Controller
+- [x] Du ska skapa en Dockerfile och skriva instruktioner om hur serverkomponenten kan startas som en docker-container, och klientkomponenten ska kunna ansluta till serverkomponenten.
+- [x] Du ska använda loggning med SLF4J och logga alla API-anrop
